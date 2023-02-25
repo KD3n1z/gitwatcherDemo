@@ -1,1 +1,3 @@
-{"FileName": "sh", "Args": "start.sh"}
+{
+	"cmd": "npm i && npm start"
+}
