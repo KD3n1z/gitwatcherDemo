@@ -1,0 +1,1 @@
+cmd: echo config for windows && npm i && npm start

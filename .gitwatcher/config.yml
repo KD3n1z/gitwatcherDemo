@@ -1,0 +1,1 @@
+cmd: echo default config (if config-[darwin/linux/windows...].yml wasn't found) && npm i && npm start
