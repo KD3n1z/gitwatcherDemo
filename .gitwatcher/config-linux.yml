@@ -1,1 +1,0 @@
-cmd: echo config for linux && npm i && npm start

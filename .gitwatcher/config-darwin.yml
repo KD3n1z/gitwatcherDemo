@@ -1,1 +1,0 @@
-cmd: echo config for darwin (macOS) && npm i && npm start

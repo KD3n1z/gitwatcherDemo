@@ -1,1 +1,19 @@
-cmd: echo default config (if config-[darwin/linux/windows...].yml wasn't found) && npm i && npm start
+# default config
+default:
+  cmd: echo default config (if os != 'darwin' | 'linux' | 'windows') && npm i && npm start
+  shell: sh
+  args:
+    - -c
+    - $cmd
+
+# config for 'windows'
+windows:
+  cmd: echo config for 'windows' && npm i && npm start
+
+# config for 'darwin'
+darwin:
+  cmd: echo config for 'darwin' && npm i && npm start
+
+# config for 'linux'
+linux:
+  cmd: echo config for 'linux' && npm i && npm start
