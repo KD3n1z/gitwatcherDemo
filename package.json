@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "build": "tsc",
     "start": "node ."
   },
   "keywords": [],
@@ -12,5 +13,9 @@
   "dependencies": {
     "dotenv": "^16.0.3",
     "telegraf": "^4.11.2"
+  },
+  "devDependencies": {
+    "@types/node": "^18.15.11",
+    "typescript": "^5.0.4"
   }
 }

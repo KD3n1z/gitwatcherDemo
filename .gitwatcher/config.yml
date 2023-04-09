@@ -1,6 +1,6 @@
 # default config
 default:
-  cmd: echo default config (if os != 'darwin' | 'linux' | 'windows') && npm i && npm start
+  cmd: echo default config (if os != 'darwin' | 'linux' | 'windows') && npm i && npm run build && npm start
   shell: sh
   args:
     - -c
@@ -8,12 +8,12 @@ default:
 
 # config for 'windows'
 windows:
-  cmd: echo config for 'windows' && npm i && npm start
+  cmd: echo config for 'windows'&& npm i && npm run build &&  && npm start
 
 # config for 'darwin'
 darwin:
-  cmd: echo config for 'darwin' && npm i && npm start
+  cmd: echo config for 'darwin' && npm i && npm run build && npm start
 
 # config for 'linux'
 linux:
-  cmd: echo config for 'linux' && npm i && npm start
+  cmd: echo config for 'linux' && npm i && npm run build && npm start
